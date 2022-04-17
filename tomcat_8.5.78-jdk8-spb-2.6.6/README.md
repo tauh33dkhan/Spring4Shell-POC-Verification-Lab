@@ -18,7 +18,7 @@ You can access the application at http://localhost:8002/helloworld/greeting
 
 ## Test if application is vulnerable
 
-### Using curl 
+### POC 1: Using curl 
 
 Source: https://twitter.com/RandoriAttack/status/1509298490106593283
 
