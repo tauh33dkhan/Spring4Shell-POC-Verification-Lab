@@ -1,4 +1,4 @@
-## Lab 2: Partially vulnerable deployment
+# Lab 2: Partially vulnerable deployment
 
 Lab to test poc exploit on vulnerable spring boot version 2.6.3 deployed on fixed tomcat version 8.5.78 with open-jdk 11
 
@@ -8,7 +8,7 @@ openJDK: 11
 Spring Boot: 2.6.3
 ```
 
-### How to deploy?
+## How to deploy?
 
 ```bash
 $ docker build . -t sp4s-tomcat8.5.73-jdk11-spb2.6.3 && docker run -p 8001:8080 sp4s-tomcat8.5.73-jdk11-spb2.6.3
@@ -16,7 +16,7 @@ $ docker build . -t sp4s-tomcat8.5.73-jdk11-spb2.6.3 && docker run -p 8001:8080 
 
 You can access the application at http://localhost:8001/helloworld/greeting
 
-Test if application is vulnerable
+## Test if application is vulnerable
 
 ### Using curl 
 
@@ -44,7 +44,6 @@ Content-Length: 110
 
 400 response indicates that application is vulnerable but is it exploitable let's try to exploit it using another exploit poc
 
-
 ### POC 2
 
 https://github.com/BobTheShoplifter/Spring4Shell-POC
@@ -71,7 +70,7 @@ It gives 500 error when trying to upload the shell because of fixed tomcat versi
 https://github.com/fullhunt/spring4shell-scan
 
 ```bash
-python spring4shell-scan.py --url http://localhost:8001/helloworld/greeting
+$ python spring4shell-scan.py --url http://localhost:8001/helloworld/greeting
 [•] CVE-2022-22965 - Spring4Shell RCE Scanner
 [•] Scanner provided by FullHunt.io - The Next-Gen Attack Surface Management Platform.
 [•] Secure your External Attack Surface with FullHunt.io.
