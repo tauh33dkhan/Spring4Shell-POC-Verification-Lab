@@ -1,9 +1,11 @@
-Lab to test poc exploit on vulnerable spring boot version 2.6.3 deployed on fixed tomcat version 8.5.73 with open-jdk 11
+## Lab 1: Vulnerable deployment
 
+Lab to test poc exploit on vulnerable spring boot version 2.6.3 deployed on fixed tomcat version 8.5.73 with open-jdk 11
+```
 Tomcat version: 8.5.73
 openJDK: 11
 Spring Boot: 2.6.3
-
+```
 How to deploy?
 
 ```
