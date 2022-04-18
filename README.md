@@ -2,6 +2,17 @@
 
 This lab is created to test poc exploits on vulnerable, partially vulnerable and fixed version of spring boot deployment.
 
+### Working POC
+
+After testing many poc on lab I found this poc is properly able to detect the vulnerable deployment which gives `400` error
+on vulnerable lab, 500 error on fixed tomcat lab and 200 OK response on fixed version.
+
+source: https://twitter.com/hiaray115/status/1512147033309786119
+
+```
+host:port/path?class.module.classLoader.resources.baseUrls%5B0%5D=0
+```
+
 ## Lab 1: Vulnerable deployment
 
 ```js
