@@ -4,8 +4,11 @@ This lab is created to test poc exploits on vulnerable, partially vulnerable and
 
 ### Working POC
 
-After testing many poc on lab I found this poc is properly able to detect the vulnerable deployment which gives `400` error
-on vulnerable lab, 500 error on fixed tomcat lab and 200 OK response on fixed version.
+After testing many poc on lab I found this poc is properly able to detect the vulnerable deployment which gives 
+
+- `400` error response on vulnerable lab.
+- `500` error response on fixed tomcat but vulnerable spring boot lab and 
+- `200 OK` response on fixed tomcat as well as spring boot lab.
 
 source: https://twitter.com/hiaray115/status/1512147033309786119
 
