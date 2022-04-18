@@ -29,7 +29,7 @@ Here I used fixed spring boot, tomcat and not vulnerable JDK version
 ```js
 Tomcat: 8.5.78
 Spring boot: 2.6.6
-JSK: 8
+JDK: 8
 ```
 <a href="https://github.com/tauh33dkhan/Spring4Shell-POC-Verification-Lab/tree/main/tomcat_8.5.78-jdk8-spb-2.6.6">Read how to deploy lab & test results</a>
 
