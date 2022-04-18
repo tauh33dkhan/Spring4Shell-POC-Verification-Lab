@@ -42,7 +42,7 @@ Content-Length: 110
 {"timestamp":"2022-04-17T19:55:40.760+00:00","status":400,"error":"Bad Request","path":"/helloworld/greeting"}
 ```
 
-400 response indicates that application is vulnerable but is it exploitable let's try to exploit it using another exploit poc
+400 response indicates that application is vulnerable but is it exploitable? let's try to exploit it using another exploit poc
 
 ### POC 2
 
