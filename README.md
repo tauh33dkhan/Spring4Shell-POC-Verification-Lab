@@ -35,4 +35,4 @@ JDK: 8
 
 ## Credits
 
-All lab uses POC application shared by <a href="https://github.com/reznok/Spring4Shell-POC">@reznok</a>
+All labs use POC application shared by <a href="https://github.com/reznok/Spring4Shell-POC">@reznok</a>
