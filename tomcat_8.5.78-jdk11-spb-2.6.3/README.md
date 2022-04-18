@@ -11,7 +11,7 @@ Spring Boot: 2.6.3
 ## How to deploy?
 
 ```bash
-$ docker build . -t sp4s-tomcat8.5.73-jdk11-spb2.6.3 && docker run -p 8001:8080 sp4s-tomcat8.5.73-jdk11-spb2.6.3
+$ docker build . -t sp4s-tomcat8.5.78-jdk11-spb2.6.3 && docker run -p 8001:8080 sp4s-tomcat8.5.78-jdk11-spb2.6.3
 ```
 
 You can access the application at http://localhost:8001/helloworld/greeting
